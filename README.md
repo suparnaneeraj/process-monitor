@@ -18,5 +18,9 @@ Unit test cases are currenly running on MacOS, albeit can be run on any OS by ad
 
 ## Feature Improvement
   - Improve test cases
+  - Refactor the nunit tests by using Moq library instead of testing the actual implementation
   - Further code splitting for scalability
-
+  - If we press q after waiting has started , the application exits only after completing the wait time.
+  - The wait functionality can be implemented using timers instead of sleep().
+  - Currently the application exits on pressing q or Q , this can be modified to any key press or provide a key range.
+  - The application is tested and designed on Mac machine , so the implementation might need a modification when running on Windows, especially the nunit tests.

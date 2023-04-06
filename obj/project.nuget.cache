@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "gDyrpaVDAW/79CH2tw5zAj9gIzcboayPwxbutc0wpSVF8Iy0ZsijJgnfP36q+FgBSv1uMn+niNtAlsLXD9OrPg==",
+  "success": true,
+  "projectFilePath": "/Users/neerajdas/Desktop/Suparna/Testing/MonitorProcess/MonitorProcess.csproj",
+  "expectedPackageFiles": [
+    "/Users/neerajdas/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/neerajdas/.nuget/packages/netstandard.library/2.0.0/netstandard.library.2.0.0.nupkg.sha512",
+    "/Users/neerajdas/.nuget/packages/nunit/3.13.3/nunit.3.13.3.nupkg.sha512",
+    "/Users/neerajdas/.nuget/packages/nunit3testadapter/4.4.2/nunit3testadapter.4.4.2.nupkg.sha512"
+  ],
+  "logs": []
+}

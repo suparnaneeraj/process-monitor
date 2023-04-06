@@ -12,7 +12,7 @@ using System.Diagnostics;
                 int maxLifetimeMinutes = int.Parse(args[1]);
                 int monitoringFrequencyMinutes = int.Parse(args[2]);
                 MyApplication myApplication = new MyApplication();
-                Console.WriteLine("Starting the Process Monitoring ");
+                Console.WriteLine("Starting the MonitorProcess app ");
                 Console.WriteLine("Press Q or q to stop the monitoring process");
                 while (true)
                 {
@@ -25,7 +25,7 @@ using System.Diagnostics;
                     }
                     //Calling the method to check if the process has exceeded the threshold.
                     myApplication.MonitoringProcess(processName, maxLifetimeMinutes, monitoringFrequencyMinutes);
-                    Console.WriteLine($"Waiting for {monitoringFrequencyMinutes} minutes");
+                    Console.WriteLine($"Waiting for {monitoringFrequencyMinutes} minute(s)");
                     Thread.Sleep(monitoringFrequencyMinutes * 60 * 1000);
                 }
             }
